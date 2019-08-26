@@ -246,6 +246,65 @@ li > .article-box {
     background: #6422E9;
 }
 
+/* Section Modal */
+
+
+#content-modal {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: none;
+    margin-top: -510px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    background: #FFF;
+    width: max-content;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    -webkit-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+  }
+
+
+#content-modal > .modal-button {
+    border-radius: 36px;
+    border: none;
+    float: right;
+    -webkit-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    color: #FFF;
+    padding: .7rem 2rem .7rem 2rem;
+    background: #6422E9;
+}
+  
+input, textarea {
+    display: block;
+}
+  
+input {
+    border-radius: 20px;
+    width: 93%;
+    border: 1px solid lightgray;
+    padding: .5rem 0rem .5rem 1rem;
+    margin-bottom: 1rem;
+}
+  
+textarea {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: .7rem 0rem .5rem 1rem;
+    margin-bottom: 1rem;
+}
+  
+input:focus{
+      outline: none;
+      border-radius: 20px;
+}
+  
 
 
 
