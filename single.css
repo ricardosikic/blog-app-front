@@ -16,6 +16,65 @@ body {
 }
 
 #section-single {
-    padding-left: 2rem;
+    padding-left: 1rem;
+    height: auto;
 }
 
+#section-single > .content-single {
+    border: 1px solid black;
+    background: yellow;
+    margin: 0 auto;
+}
+
+#section-single > .content-single > h2 {
+    font-weight: 700;   
+}
+
+#section-single > .content-single > .share-linkedin {
+    background: #4B6FF7;
+    color: #FFF;
+    border-radius: 36px;
+    border: none;
+    padding: .3rem .9rem .3rem .9rem;
+    -webkit-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+}
+
+#section-single > .content-single > p {
+    text-align: justify;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+#section-single > .content-single > .img-content {
+    margin-top: 2rem;
+}
+
+#section-single > .content-single > .img-content > ul {
+    /* background: red; */
+    list-style: none;
+    padding-left: .1rem;
+}
+
+#section-single > .content-single > .img-content > ul > li {
+    display: inline-block;
+}
+
+#section-single > .content-single > .img-content > ul > li > .square {
+    height: 100px;
+    width: 100px;
+    background: #6422E9;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+}
+
+#section-single > .content-single > .img-content > ul > li:nth-child(1) {
+    padding-right: .3rem;
+}
+
+#section-single > .content-single > .img-content > ul > li:nth-child(2) {
+    padding-right: .3rem;
+}
