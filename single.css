@@ -21,8 +21,8 @@ body {
 }
 
 #section-single > .content-single {
-    border: 1px solid black;
-    background: yellow;
+    /* border: 1px solid black; */
+    /* background: yellow; */
     margin: 0 auto;
 }
 
@@ -77,4 +77,80 @@ body {
 
 #section-single > .content-single > .img-content > ul > li:nth-child(2) {
     padding-right: .3rem;
+}
+
+/** START DESKTOP **/
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .wrapper {
+        grid-template-columns: auto;
+    }
+
+    #section-single {
+        padding-left:3rem;
+        height: auto;
+    }
+
+    #section-single > .content-single {
+        /* border: 1px solid black; */
+        /* background: yellow; */
+        width: 80%;
+        float: left;
+        margin: 0 auto;
+    }   
+
+    #section-single > .content-single > h2 {
+        font-weight: 700;   
+    }
+    
+    #section-single > .content-single > .share-linkedin {
+        background: #4B6FF7;
+        color: #FFF;
+        border-radius: 36px;
+        border: none;
+        padding: .4rem 1rem .4rem 1rem;
+        -webkit-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+        box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    }
+
+    #section-single > .content-single > p {
+        max-width: 80%;
+        margin-top: 2rem;
+    }
+
+    #section-single > .content-single > .img-content {
+        margin-top: 3rem;
+
+    }
+    
+    #section-single > .content-single > .img-content > ul {
+        /* background: red; */
+        list-style: none;
+        padding-left: .1rem;
+    }
+
+    #section-single > .content-single > .img-content > ul > li {
+        display: inline-block;
+    }
+    
+    #section-single > .content-single > .img-content > ul > li > .square {
+        height: 180px;
+        width: 180px;
+        background: #6422E9;
+        border-radius: 4px;
+        -webkit-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+        box-shadow: 1px 3px 13px -5px rgba(0,0,0,0.75);
+    }
+    
+    #section-single > .content-single > .img-content > ul > li:nth-child(1) {
+        padding-right: .3rem;
+    }
+    
+    #section-single > .content-single > .img-content > ul > li:nth-child(2) {
+        padding-right: .3rem;
+    }
+    
+
 }
