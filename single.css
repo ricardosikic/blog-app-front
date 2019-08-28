@@ -1,0 +1,21 @@
+/* Generals */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/** START MOBILE **/
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#section-single {
+    padding-left: 2rem;
+}
+

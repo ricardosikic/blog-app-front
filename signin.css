@@ -14,6 +14,11 @@ body {
 
 /** START MOBILE **/ 
 
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+}
+
 .content-signin {
     /* border: 1px solid black; */
     border-radius: 5px;
@@ -64,6 +69,11 @@ body {
 /** START DESKTOP **/
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
+
+    .wrapper {
+        grid-template-columns: auto;
+    }
+
     .content-signin {
         width: 400px;
         height: 300px;
@@ -82,6 +92,11 @@ body {
 /** START DESKTOP II **/
 
 @media screen and (max-width: 1440px) and (min-width: 1025px) {
+
+    .wrapper {
+        grid-template-columns: auto;
+    }
+
     .content-signin {
         width: 400px;
         height: 300px;
@@ -99,6 +114,11 @@ body {
 /** START DESKTOP III **/
 
 @media screen and (max-width: 2560px) and (min-width: 1441px) {
+
+    .wrapper {
+        grid-template-columns: auto;
+    }
+    
     .content-signin {
         width: 400px;
         height: 300px;
