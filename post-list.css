@@ -1,0 +1,37 @@
+/* Generals */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*** START MOBILE ***/
+.wrapper {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-areas: 
+    'header header'
+    'list sidebar'
+}
+
+header {
+    grid-area: header;
+    background: red;
+}
+
+#section-posts {
+    grid-area: list;
+    background: green;
+}
+
+#section-sidebar {
+    grid-area: sidebar;
+    background: yellow;
+}
